@@ -10,14 +10,14 @@ DATE:27/02/19*/
 #include<stdio.h>
 void main()
 { 
-int i,j,limit;
+int x,y,limit;
 printf("enter the limit");
 scanf("%d",&limit);
-for(i=1;i<=limit;i++)
+for(x=1;x<=limit;x++)
 	{
-	for(j=limit;j>=i;j--)
+	for(y=limit;y>=x;y--)
 		{
-		printf("*\t",j);
+		printf("*\t",y);
 		}
 	printf("\n");
 	}
