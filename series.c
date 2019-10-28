@@ -6,7 +6,7 @@ DATE:6/03/19*/
 void main()
 {
 float i=1,sum=0,fact=1;
-while(i<=7)
+while(i<=8)
 	{
 	fact=fact*i;
 	sum=sum+(1/fact);
